@@ -1,2 +1,2 @@
-# Container-Apps-Nginx
-Azure Container Apps Nginx
+# 概要
+Azure Container Apps で Nginx を動作させるサンプルスクリプト
