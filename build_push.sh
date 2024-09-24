@@ -7,7 +7,7 @@ set -e
 # az acr login --name acrtatsukonidemov1
 
 AZURE_CONTAINER_REGISTRY=acrtatsukonidemov1.azurecr.io
-REPOSITORY_NAME=servicebus-receiver
+REPOSITORY_NAME=nginx
 CONTAINER_IMAGE_TAG=$(date +%Y%m%d%H%M%S)
 
 docker build --platform linux/amd64 -t $AZURE_CONTAINER_REGISTRY/$REPOSITORY_NAME:$CONTAINER_IMAGE_TAG .

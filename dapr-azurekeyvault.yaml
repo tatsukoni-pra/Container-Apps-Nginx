@@ -1,0 +1,8 @@
+componentType: secretstores.azure.keyvault
+version: v1
+metadata:
+- name: vaultName
+  value: kv-tatsukoni-demo-v1
+# ContainerAppsがユーザー割り当てマネージドIDを使用している場合は、以下の指定が必要
+- name: azureClientId
+  value: df9bae16-ed78-4cd5-aa9c-d3ee3d4f0544
