@@ -7,7 +7,7 @@ set -e
 
 REVISION_SUFFIX=$(date +%Y%m%d%H%M%S)
 SERVICEBUS_NAME=servicebus-tatsukoni-test-v2
-CONTAINER_IMAGE_TAG=20240923233507
+CONTAINER_IMAGE_TAG=20240928200445
 
 sed -e "s/<revisionSuffix>/$REVISION_SUFFIX/g" \
     -e "s/<servicebus-name>/$SERVICEBUS_NAME/g" \
